@@ -2,6 +2,7 @@ apply {
     plugin "readme-core"
 }
 
+
 readme {
     readmeFile file('./README.md')
     readmeCnFile file('./README-CN.md')
@@ -45,3 +46,5 @@ ext {
     website = "https://github.com/Blankj/AndroidUtilCode"
 }
 apply from: "${rootDir.path}/config/publish.gradle"
+
+
